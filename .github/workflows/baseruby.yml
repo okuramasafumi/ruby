@@ -47,7 +47,7 @@ jobs:
         with:
           path: .downloaded-cache
           key: downloaded-cache
-      - uses: ruby/setup-ruby@31a7f6d628878b80bc63375a93ae079ec50a1601 # v1.143.0
+      - uses: ruby/setup-ruby@8a45918450651f5e4784b6031db26f4b9f76b251 # v1.150.0
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler: none
